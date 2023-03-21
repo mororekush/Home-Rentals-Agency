@@ -62,10 +62,10 @@ header{
 }
 .bottom-right{
     display: flex;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     width: 24vw;
     padding: 20px;
-    border-radius: 3px;
+    border-radius: 2px;
     align-items: center;
 }
 
@@ -156,6 +156,8 @@ h2{
     margin: auto;
     text-align: center;
     margin: 40px;
+    background-color: #fff;
+    border-radius: 26px;
 }
 
 .card p{
@@ -175,20 +177,23 @@ h2{
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 30px;
+    background-color: #e9e9e9;
 }
 
 .card-side{
-    background-color: #c8c8c8;
+    background-color: #e9e9e9;
 }
 
 .card-side h2{
-    margin-top: 30px;
     margin-left: 50px;
 }
 
 .top{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
 
 }
 
@@ -306,7 +311,7 @@ select {
     width: 80%;
     height: 50px;
     display: inline-block;
-    background-color: #d5d5d5;
+    background-color: #eaeaea;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 16px;
