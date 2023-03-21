@@ -42,6 +42,11 @@
               <option value="All type">All Type</option>
               <option value="All type">All Type</option>
             </select>
+
+            <button class="search-btn" onclick="toggleSearch()">Search</button>
+            <form class="search-form" id="search-form">
+              <input type="text" placeholder="Search..." />
+            </form>
           </div>
         </div>
       </div>
@@ -58,7 +63,7 @@
           <div class="rows">
             <div class="icon-tab">
               <div class="icon">
-                <img src="images/Vector (11).svg" alt="" width="150%" />
+                <img src="images/Vector (11).svg" alt="" width="90%" />
               </div>
               <p>
                 Pay as Little <br />
@@ -67,7 +72,7 @@
             </div>
             <div class="icon-tab">
               <div class="icon">
-                <img src="images/Vector (10).svg" alt="" width="150%" />
+                <img src="images/Vector (10).svg" alt="" width="90%" />
               </div>
               <p>
                 Enjoy wisdom <br />
@@ -76,7 +81,7 @@
             </div>
             <div class="icon-tab">
               <div class="icon">
-                <img src="images/Vector (9).svg" alt="" width="150%" />
+                <img src="images/Vector (9).svg" alt="" width="90%" />
               </div>
               <p>
                 Let's somebody else <br />
@@ -88,7 +93,7 @@
           <div class="rows">
             <div class="icon-tab">
               <div class="icon">
-                <img src="images/Vector (8).svg" alt="" width="150%" />
+                <img src="images/Vector (8).svg" alt="" width="90%" />
               </div>
               <p>
                 Enjoy peaceful <br />
@@ -97,7 +102,7 @@
             </div>
             <div class="icon-tab">
               <div class="icon">
-                <img src="images/Vector (7).svg" alt="" width="150%" />
+                <img src="images/Vector (7).svg" alt="" width="90%" />
               </div>
               <p>
                 Stay Safe! <br />
@@ -106,7 +111,7 @@
             </div>
             <div class="icon-tab">
               <div class="icon">
-                <img src="images/Vector (6).svg" alt="" width="150%" />
+                <img src="images/Vector (6).svg" alt="" width="90%" />
               </div>
               <p>
                 Pay for what <br />
@@ -118,88 +123,92 @@
       </div>
 
       <!--Cards-->
-      <h2><span>List</span> of Properties</h2>
-      <button class="btn">View all Properties</button>
-      <div class="card-section">
-        <div class="card">
-          <img
-            src="images/unsplash_Eh_It1hg4Hs.png"
-            alt="Denim Jeans"
-            style="width: 100%"
-          />
-          <h3>
-            2578 Folsom street, san <br />
-            francisco, CA, 94110
-          </h3>
-          <p class="price">Private Room</p>
-          <p>$1200/month</p>
+      <div class="card-side">
+        <div class="top">
+          <h2><span>List</span> of Properties</h2>
+          <button class="btn">View all Properties</button>
         </div>
+        <div class="card-section">
+          <div class="card">
+            <img
+              src="images/unsplash_Eh_It1hg4Hs.png"
+              alt="Denim Jeans"
+              style="width: 100%"
+            />
+            <h3>
+              2578 Folsom street, san <br />
+              francisco, CA, 94110
+            </h3>
+            <p class="price">Private Room</p>
+            <p>$1200/month</p>
+          </div>
 
-        <div class="card">
-          <img
-            src="images/unsplash_2d4lAQAlbDA.png"
-            alt="Denim Jeans"
-            style="width: 100%"
-          />
-          <h3>
-            2578 Folsom street, san <br />
-            francisco, CA, 94110
-          </h3>
-          <p class="price">Private Room</p>
-          <p>$1200/month</p>
-        </div>
+          <div class="card">
+            <img
+              src="images/unsplash_2d4lAQAlbDA.png"
+              alt="Denim Jeans"
+              style="width: 100%"
+            />
+            <h3>
+              2578 Folsom street, san <br />
+              francisco, CA, 94110
+            </h3>
+            <p class="price">Private Room</p>
+            <p>$1200/month</p>
+          </div>
 
-        <div class="card">
-          <img
-            src="images/unsplash_T6d96Qrb5MY.png"
-            alt="Denim Jeans"
-            style="width: 100%"
-          />
-          <h3>
-            2578 Folsom street, san <br />
-            francisco, CA, 94110
-          </h3>
-          <p class="price">Private Room</p>
-          <p>$1200/month</p>
-        </div>
+          <div class="card">
+            <img
+              src="images/unsplash_T6d96Qrb5MY.png"
+              alt="Denim Jeans"
+              style="width: 100%"
+            />
+            <h3>
+              2578 Folsom street, san <br />
+              francisco, CA, 94110
+            </h3>
+            <p class="price">Private Room</p>
+            <p>$1200/month</p>
+          </div>
 
-        <div class="card">
-          <img
-            src="images/unsplash_KQgrVfR3r74.png"
-            alt="Denim Jeans"
-            style="width: 100%"
-          />
-          <h3>
-            2578 Folsom street, san <br />
-            francisco, CA, 94110
-          </h3>
-          <p class="price">Private Room</p>
-          <p>$1200/month</p>
-        </div>
+          <div class="card">
+            <img
+              src="images/unsplash_KQgrVfR3r74.png"
+              alt="Denim Jeans"
+              style="width: 100%"
+            />
+            <h3>
+              2578 Folsom street, san <br />
+              francisco, CA, 94110
+            </h3>
+            <p class="price">Private Room</p>
+            <p>$1200/month</p>
+          </div>
 
-        <div class="card">
-          <img
-            src="images/unsplash_UV81E0oXXWQ.png"
-            alt="Denim Jeans"
-            style="width: 100%"
-          />
-          <h3>2578 Folsom street, san francisco, CA, 94110</h3>
-          <p class="price">Private Room</p>
-          <p>$1200/month</p>
-        </div>
+          <div class="card">
+            <img
+              src="images/unsplash_UV81E0oXXWQ.png"
+              alt="Denim Jeans"
+              style="width: 100%"
+            />
+            <h3>2578 Folsom street, san francisco, CA, 94110</h3>
+            <p class="price">Private Room</p>
+            <p>$1200/month</p>
+          </div>
 
-        <div class="card">
-          <img
-            src="images/unsplash_uDtC-1NLEzU.png"
-            alt="Denim Jeans"
-            style="width: 100%"
-          />
-          <h3>
-            2578 Folsom street, san <br />
-            francisco, CA, 94110
-          </h3>
-          <p class="price">Private Room</p>
-          <p>$1200/month</p>
+          <div class="card">
+            <img
+              src="images/unsplash_uDtC-1NLEzU.png"
+              alt="Denim Jeans"
+              style="width: 100%"
+            />
+            <h3>
+              2578 Folsom street, san <br />
+              francisco, CA, 94110
+            </h3>
+            <p class="price">Private Room</p>
+            <p>$1200/month</p>
+          </div>
         </div>
       </div>
 
